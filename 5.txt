@@ -1,0 +1,30 @@
+Hello sir,
+Myself chiranjeevi pattigidi from Gayatri Vidya Parishad College of Engineering from Information Technology
+here is a design document on how to crawl a website and save the images and text from website
+Here are my thoughts,
+First of all, What is crawl? Crawling the website is called web crawler or spider,It is a type of bot that typically operated by search engines like google,bing.Their purpose is to index the content of websites all across the internet so that those websites can appear in search engine results.
+To do web crawling.there are several steps they are
+1)Understanding the domain structure
+2)Configuring the URL sources
+3)Running a test crawl
+4)Adding crawl restrictions
+5) Testing your changes
+6)Running your crawl
+1)understanding the domain structure:
+      Check the (www/http/https) configuration of the domain when you add the domain.
+2)Configuring the url sources:
+    	There are several types of url sources
+3)Running a test crawl:
+     Before you run a crawl ensute that you have set the crawl limit to a low quality.  
+4)Adding crawl restrictions:
+       i)Add crawl restrictions like filter urls and url paths
+       ii)Add crawl limits for groups of pages
+       iii)Use robots overwrite settings
+5)testing your changes:
+      You should test your changes to check your configuration is correct.If it is correct you are ready to run a full crawl
+6)Running your crawl:
+      Run the crawl and set Scheduling for your crawls to track your progress.
+These are the steps to follow to create crawl for website.
+In my view using " Octoparse " is good way to extract images and text from website.
+Because,unlike a single-page image downloader, Octoparse helps you get the multiple URLs of the needed images. Here are the reasons for that.
+When using Octoparse to scrape images, you can add pagination to the crawler so that it can scrape down image URLs automatically over a multitude of pages. Instead of downloading the images page by page using an extension tool, Octoparse could save you a lot of time.
